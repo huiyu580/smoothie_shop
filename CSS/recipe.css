@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Yantramanav:wght@400;700&display=swap');
+
+@font-face{
+    font-family: genj;
+    src: url(../fonts/GenJyuuGothic-Regular.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #90BE6D;
+    padding-top: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+
+header{
+    background-color: #2F4B26;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top:0;
+    z-index: 4;
+}
+
+header h2{
+    /* border: 1px solid red; */
+    font-family: 'Pacifico', cursive;
+    color: white;
+    width: 200px;
+    font-size: 32px;
+    margin-top: 15px;
+    margin-left: 2%;
+    float: left;
+}
+
+
+header ul{
+    margin-right: 3%;
+    float: right;
+}
+
+header li{
+    /* border: 1px solid red; */
+    list-style: none;
+    display: inline-block;
+    font-family: genj;
+    font-size: 20px;
+    margin: 22px 20px;
+    color: white;
+}
+
+header ul a{
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+header .order_button{
+    background-color: #EA9010;
+}
+
+header ul a:hover{
+    background-color: #EA9010;
+    border: hidden;
+}
+
+.page{
+    margin: 5% 8% 1% 8%;
+    padding: 50px;
+    background-color:#f0f8ea;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 77.8%;
+}
+
+.header::before{
+    clear: both;
+}
+
+.page h1{
+    text-align: center;
+    color: #333;
+    font-family: genj;
+}
+
+.page h2,h3,li{
+    color: #333;
+    font-family: genj;
+
+}
+
+
+.subhead{
+    text-align: center;
+}
+
+hr{
+    width: 90%;
+    color: #333;
+    display: block;
+    clear: both;
+}
+
+nav{
+    position: fixed;
+    top: 27%;
+    margin-left: 81%;
+    writing-mode: vertical-rl;
+    color: white;
+    font: 20px genj;
+
+}
+
+nav span{
+    padding: 5px;
+    margin: 3px 0;
+    border-radius: 0 7px 7px 0;
+}
+
+nav span:nth-child(1){
+    background-color: #aaa;
+    font-weight: 700;
+}
+
+nav span:nth-child(2){
+    background-color: #EA9010;
+}
+
+nav span:nth-child(3){
+    background-color: #2F4B26;
+}
+
+nav span:nth-child(4){
+    background-color: #DD5E98;
+}
+
+nav span:nth-child(5){
+    background-color: #F05D5E;
+}
+
+.left{
+    float: left;
+    /* border: 1px solid red; */
+    width: 55%;
+    margin: 5% 3% 5% 8%;
+
+
+}
+
+.right{
+    float: left;
+    /* border: 1px solid red; */
+    width: 25%;
+    margin: 5% 3%;
+}
+
+.right li{
+    line-height: 28px;
+}
+
+.right h3:first-child{
+    margin-top: 0;
+}
+
+.left img{
+    background-color: gray;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #333;
+    font-family: genj;
+}

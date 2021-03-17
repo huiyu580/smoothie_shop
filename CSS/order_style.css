@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Yantramanav:wght@400;700&display=swap');
+
+@font-face{
+    font-family: 'genj';
+    src: url('../fonts/GenJyuuGothic-Regular.ttf');
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+h3{
+    font-size: 25px;
+    font-family: genj;
+}
+
+h4{
+    font-size: 20px;
+}
+
+body{
+    background-color: #90BE6D;
+}
+
+
+header{
+    background-color: #2F4B26;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    margin: 0px;
+
+}
+
+header h2{
+    /* border: 1px solid red; */
+    font-family: 'Pacifico', cursive;
+    color: white;
+    width: 200px;
+    font-size: 32px;
+    margin-top: 15px;
+    margin-left: 2%;
+    float: left;
+}
+
+
+header ul{
+    margin-right: 3%;
+    float: right;
+}
+
+header li{
+    /* border: 1px solid red; */
+    list-style: none;
+    display: inline-block;
+    font-family: genj;
+    font-size: 20px;
+    margin: 22px 20px;
+    color: white;
+}
+
+header ul a{
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+header .order_button{
+    background-color: #EA9010;
+}
+
+header ul a:hover{
+    background-color: #EA9010;
+    border: hidden;
+}
+
+.height_header{
+    height: 100px;
+    display: block;
+}
+
+/* main */
+
+main h1{
+    margin: 0;
+    padding: 30px;
+    display: block;
+    text-align: center;
+    font-family: genj;
+    color: #2F4B26;
+}
+
+.menu_container{
+    background-color: #f0f8ea;
+    width: 49%;
+    padding: 2% 3%;
+    margin-left: 2%;
+    margin-bottom: 16px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    float: left;
+
+}
+
+.menu_container p{
+    font-family: genj;
+    font-size: 18px;
+    float: right;
+    position: relative;
+    right: 50px;
+}
+
+.menu_container h2{
+    font-family: genj;
+    margin-bottom: 30px;
+    font-size: 40px;
+    border-bottom: 5px solid #2F4B26;
+    padding-bottom: 20px ;
+    color: #2F4B26;
+}
+
+.menu_container img{
+    /* width: 20px; */
+    width: 20px;
+    padding: 0px 10px;
+}
+
+table{
+    width: 100%;
+    font-family: genj;
+    font-size: 18px;
+}
+
+th,td{
+    padding: 5px 30px;
+}
+
+.menu_container span{
+    position: relative;
+    bottom: 25px;
+}
+
+.info_container{
+    background:url("/images/citrus.png") no-repeat 5% 95%,#f0f8ea;
+    padding: 2% 3%;
+    width: 30%;
+    margin-right: 2%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    float: right;
+    
+}
+
+.info_container h2{
+    text-align: center;
+    font-family: genj;
+    margin-bottom: 30px;
+    border-bottom: 5px solid #2F4B26;
+    padding-bottom: 20px ;
+    color: #2F4B26;
+
+}
+
+.info_container form{
+    position: relative;
+    top: 25px;
+
+}
+
+.info_container input, 
+.info_container textarea{
+    padding: 5px;
+    margin: 10px;
+}
+
+.info_container textarea{
+    width: 80%;
+    clear: both;
+    float: right;
+    margin-bottom: 50px;
+}
+
+input[name="name"]{
+    width: 70%;
+    float: right;
+}
+
+input[name="phone"]{
+    width: 70%;
+    float: right;
+}
+
+.info_container select{
+    float: right;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+input[name="address"]{
+    width: 50%;
+    float: right;
+}
+
+input[type="submit"]{
+    display: block;
+    float: right;
+    clear: both;
+    font-family: genj;
+    font-size: 18px;
+    width: 20%;
+    padding: 20px;
+    background-color: #EA9010;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    transition: .3s;
+
+
+}
+
+input[type="submit"]:hover{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    box-shadow: none;
+}
+
+input[type="submit"]:active{
+    border: 2px solid white;
+}
+
+.info_container label{
+    float: left;
+    padding: 5px;
+    margin: 10px;
+    font-family: genj;
+    font-size: 18px;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #333;
+    font-family: genj;
+}

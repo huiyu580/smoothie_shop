@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Yantramanav:wght@400;700&display=swap');
+
+@font-face{
+    font-family: genj;
+    src: url(../fonts/GenJyuuGothic-Regular.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+
+header{
+    background-color: #2F4B26;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+}
+
+header h2{
+    /* border: 1px solid red; */
+    font-family: 'Pacifico', cursive;
+    color: white;
+    width: 200px;
+    font-size: 32px;
+    margin-top: 15px;
+    margin-left: 2%;
+    float: left;
+}
+
+
+header ul{
+    margin-right: 3%;
+    float: right;
+}
+
+header li{
+    /* border: 1px solid red; */
+    list-style: none;
+    display: inline-block;
+    font-family: genj;
+    font-size: 20px;
+    margin: 22px 20px;
+    color: white;
+}
+
+header ul a{
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+header .order_button{
+    background-color: #EA9010;
+}
+
+header ul a:hover{
+    background-color: #90BE6D;
+    border: 1px solid #90BE6D;
+}
+
+.banner{
+    width: 100%;
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(../images/assortment-citrus-fruits.jpg);
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    top: 100px;
+}
+
+.text-container{
+    font-family: 'Pacifico', cursive;
+    text-align: left;
+    position: relative;
+    top: 180px;
+    padding-left: 100px;
+}
+
+.banner h1{
+    /* border: 1px solid red; */
+    color: #2F4B26;
+    width: 450px;
+    line-height:200px;
+    margin: 0;
+}
+
+.banner h3{
+    color: #90BE6D;
+    line-height: 200px;
+    margin-top: -100px;
+}
+.flavor_intro{
+    width: 100%;
+    position: relative;
+    top: 100px;
+    font-family: genj;
+    text-align: center;
+    background-color: #90BE6D;
+
+}
+.flavor_intro h2{
+    text-align: center;
+    width: 100%;
+    color: #2F4B26;
+    margin-top: 0;
+    padding-top: 50px;
+}
+
+.flavors{
+    /* border: 1px solid red; */
+    background-color: #90BE6D;
+    height: 800px;
+    margin: 0 auto;
+    
+
+}
+
+.flavor_intro img{
+    width: 100%;
+    overflow: hidden;
+    transition: .5s;
+
+}
+
+.flavor{
+    float: left;
+    margin: 0px 3%;
+    padding: 0;
+    /* border: 1px solid red; */
+    width: 16%;
+    position: relative;
+    left: 7%;
+    /* bottom: 5%; */
+    height: 800px;
+}
+
+.flavor:hover #yellow, 
+.flavor:hover #pink,
+.flavor:hover #green,
+.flavor:hover #red{
+    transition: .2s;
+    opacity: 1;
+}
+
+.flavor:hover img{
+    position: relative;
+    bottom: 120px;
+
+}
+
+.clear{
+    clear: both;
+}
+
+.product_name{
+
+    height: 180px;
+    width: 180px;
+    padding: 0;
+    border-radius: 50%;
+    z-index: 3;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    margin: 0 auto;
+    padding: 5px;
+    position: relative;
+    bottom: 250px;
+    color: white;
+}
+
+
+.flavor_intro h4{
+    margin-top: 50px;
+}
+
+
+#yellow{
+    background-color:#EA9010;
+    opacity: 0.8;
+}
+#pink{
+    background-color:#DD5E98;
+    opacity: 0.8;
+}
+#green{
+    background-color:#2F4B26;    
+    opacity: 0.8;
+}
+#red{
+    background-color:#F05D5E;
+    opacity: 0.8;
+}
+
+.knowledge {
+    margin-top: 4%;
+    background-color: #90BE6D;
+    height: 400px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.knowledge .content{
+    padding-top: 20px;
+    height: 380px;
+    width: 60%;
+    background-color: #f0f8ea;
+    margin: 0px auto;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+
+}
+
+.knowledge h2{
+    text-align: center;
+    font-family: genj;
+    color: #2F4B26;
+}
+
+.knowledge p{
+    width: 60%;
+    float: right;
+    font-family: genj;
+    font-size: 20px;
+    padding: 10px 30px 30px 0;
+    line-height: 30px;
+}
+
+.knowledge img{
+    width: 20%;
+    float: left;
+    margin: 50px;
+    padding: 10px;
+}
+
+.information{
+    background: #2F4B26;
+    color: white;
+    font-family: genj;
+    padding: 50px;
+    
+
+}
+
+.information h2{
+    display: block;
+    text-align: center;
+    /* border: 1px solid red; */
+    position: relative;
+    margin: 0px;
+}
+
+.information iframe{
+    float: right;
+    padding: 50px 50px 0px 0px; 
+}
+
+.information .contact{
+    float: right;
+    position: relative;
+    padding: 50px 50px 0px 0px; 
+    /* border: 1px solid red; */
+}
+
+.contact h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+.news{
+    float: left;
+    padding: 50px 50px 0px 100px; 
+}
+
+.news input[type="text"]{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    
+}
+
+.news input[type="submit"]{
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #EA9010;
+    margin-left: 10px;
+
+}
+
+footer{
+    background-color: #2F4B26;
+    padding: 30px 0;
+    color: white;
+    font-family: genj;
+    
+}
+
+footer p{
+    margin: 0px;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.social a{
+    padding: 0px 10px;
+    position: relative;
+    top: 30px;
+}

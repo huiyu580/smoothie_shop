@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hey! Smoothies 線上訂購</title>
+    <link rel="stylesheet" href="CSS/order_style.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+</head>
+<body>
+    <div class="skin">
+        <header>
+            <h2><a href="index.html">hey! Smoothies</a></h2>
+            <ul>
+                <li><a href="index.html">回首頁</a></li>
+            </ul>
+        </header>
+        <div class="height_header"></div>
+        <main>
+            <h1>線上訂購</h1>
+            <div class="menu_container">
+                <h2>Menu</h2>
+                <form action="POST">
+                    <table>
+                        <tr>
+                            <th><h3>品項</h3></th>
+                            <th><h3>成分</h3></th>
+                            <th><h3>價格</h3></th>
+                            <th><h3>數量</h3></th>
+                        </tr>
+                        <tr>
+                            <td><img src="images/orange.png" alt=""><span>活力黃果昔</span></td>
+                            <td>柳橙、葡萄柚、芒果</td>
+                            <td>$75</td>
+                            <td><input type="number" step="1" max="30" min="0" value="0"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/pink.png" alt=""><span>經典莓果昔</span></td>
+                            <td>藍莓、草莓、蔓越莓</td>
+                            <td>$75</td>
+                            <td><input type="number" step="1" max="30" min="0" value="0"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/green.png" alt=""><span>活力黃果昔</span></td>
+                            <td>芹菜、菠菜、奇異果</td>
+                            <td>$80</td>
+                            <td><input type="number" step="1" max="30" min="0" value="0"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/red.png" alt=""><span>健康紅果昔</span></td>
+                            <td>蘋果、胡蘿蔔、覆盆莓</td>
+                            <td>$80</td>
+                            <td><input type="number" step="1" max="30" min="0" value="0"></td>
+                        </tr>
+                    </table>
+                </form>
+                <p>總計 320元</p>
+            </div>
+            <div class="info_container">
+                <h2>訂購人資料</h2>
+                <form action="POST">
+                    <label for="name">姓名</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="phone">電話</label>
+                    <input type="number" id="phone" name="phone" maxlength="10"><br>
+                    <label for="city">地址</label>
+                    <input type="text" id="address" name="address"><br>
+                    <select name="city" id="city">
+                        <option value="">請選擇</option>
+                        <option value="01">台北市</option>
+                        <option value="02">基隆市</option>
+                        <option value="02">新北市</option>
+                        <option value="02">宜蘭縣</option>
+                        <option value="02">新竹市</option>
+                        <option value="02">新竹縣</option>
+                        <option value="02">桃園市</option>
+                        <option value="02">苗栗縣</option>
+                        <option value="02">台中市</option>
+                        <option value="02">彰化縣</option>
+                        <option value="02">南投縣</option>
+                        <option value="02">嘉義市</option>
+                        <option value="02">嘉義縣</option>
+                        <option value="02">雲林縣</option>
+                        <option value="02">台南市</option>
+                        <option value="02">高雄市</option>
+                        <option value="02">澎湖縣</option>
+                        <option value="02">屏東縣</option>
+                        <option value="02">台東縣</option>
+                        <option value="02">花蓮縣</option>
+                        <option value="02">金門縣</option>
+                        <option value="02">連江縣</option>
+                    </select>
+                    <textarea name="notes" id="" cols="30" rows="5">備註事項</textarea><br>
+                    <input type="submit" value="訂購">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>copyright &copy; 2021 Sandy Lee &nbsp;&nbsp;&nbsp; huiyu.lee580@gmail.com</p>
+        </footer>
+    </div>
+</body>
+</html>
